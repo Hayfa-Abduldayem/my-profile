@@ -1,0 +1,63 @@
+/*Colors and fonts */
+body{
+	background-color: #F5F5F5;
+	color: rgb(0, 0, 0);
+	font-family: Helvetica;
+}
+h1,h2,h3{
+	font-family: "Helvetica";
+	letter-spacing: 3px;
+}
+h1{
+	color: #2F5D62;
+	font-weight: 25;
+	font-size: 40px;
+}
+h2{
+	color: #A7C4BC;
+	font-weight: 60;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #2F5D62;
+}
+a:hover {
+	color: #A7C4BC;
+}
+
+/*Custom design with class */
+
+.container {
+
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+.img-circle{
+
+	border-radius: 50%;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+.list-inline li {
+display: inline;
+padding: 10px;
+
+}
+
+
+
